@@ -1,6 +1,6 @@
 # Browserify + Gulp Project
 
-[![Travis build status](https://travis-ci.org/iondrimba/Browserify-Gulp-Sample.svg?branch=master)](https://travis-ci.org/iondrimba/Browserify-Gulp-Sample)
+[![Travis build status](https://travis-ci.org/iondrimba/browserify-gulp-sample.svg?branch=master)](https://travis-ci.org/iondrimba/browserify-gulp-sample)
 
 ### Goal:
 
@@ -15,8 +15,8 @@
 ### Installation
 
 ```sh
-$ git clone https://github.com/iondrimba/Browserify-Gulp-Sample.git
-$ cd Browserify-Gulp-Sample
+$ git clone https://github.com/iondrimba/browserify-gulp-sample.git
+$ cd browserify-gulp-sample
 $ npm install
 
 $ gulp
