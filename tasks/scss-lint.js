@@ -2,6 +2,6 @@ var gulp = require('gulp');
 var scsslint = require('gulp-scss-lint');
 
 module.exports = function() {
-  return gulp.src('src/styles/*.scss')
+  return gulp.src('src/scss/*.scss')
     .pipe(scsslint());
 };

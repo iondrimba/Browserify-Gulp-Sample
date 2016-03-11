@@ -22,10 +22,11 @@ gulp.task('sass', require('./tasks/sass.js'));
 //watch js scss files
 gulp.task('watch', require('./tasks/watch.js'));
 
-//local server localhost:8000
-gulp.task('server', require('./tasks/webserver.js'));
+//browser sync
+gulp.task('browser-sync', require('./tasks/browser-sync.js'));
 
 // Default Task
-gulp.task('default', ['server', 'watch', 'browserify']);
+gulp.task('default', ['sass', 'scsslint', 'lint', 'browserify', 'browser-sync', 'watch']);
 
+//TRAVIS
 gulp.task('travis', ['browserify', 'lint', 'scsslint', 'sass', 'imagemin', 'uglify']);

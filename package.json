@@ -13,8 +13,9 @@
     "url": "git+https://github.com/iondrimba/Browserify-Gulp-Sample.git"
   },
   "author": "Ion D. Filho",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.11.1",
     "browserify": "^11.2.0",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.0.0",
@@ -26,9 +27,10 @@
     "gulp-watch": "^4.3.5",
     "gulp-webserver": "^0.9.1",
     "imagemin-pngquant": "^4.2.0",
-    "jquery": "^2.1.4",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.4.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
 }
