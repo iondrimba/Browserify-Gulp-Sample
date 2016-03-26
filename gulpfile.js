@@ -29,4 +29,4 @@ gulp.task('browser-sync', require('./tasks/browser-sync.js'));
 gulp.task('default', ['sass', 'scsslint', 'lint', 'browserify', 'browser-sync', 'watch']);
 
 //TRAVIS
-gulp.task('travis', ['browserify', 'lint', 'scsslint', 'sass', 'imagemin', 'uglify']);
+gulp.task('test', ['browserify', 'lint', 'scsslint', 'sass', 'imagemin', 'uglify']);

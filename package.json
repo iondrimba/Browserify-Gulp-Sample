@@ -1,5 +1,5 @@
 {
-  "name": "browserify_sample",
+  "name": "browserify-gulp-sample",
   "version": "0.0.1",
   "description": "Browserify + Gulp Project Template",
   "main": "gulpfile.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iondrimba/Browserify-Gulp-Sample.git"
+    "url": "git+https://github.com/iondrimba/browserify-gulp-sample.git"
   },
   "author": "Ion D. Filho",
   "license": "MIT",
