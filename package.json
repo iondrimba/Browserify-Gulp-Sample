@@ -8,11 +8,14 @@
     "Browserify",
     "Gulp"
   ],
+  "scripts":{
+     "test":"gulp test"  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iondrimba/browserify-gulp-sample.git"
   },
-  "author": "Ion D. Filho",
+  "author": "Ion D. Filho <iondrimba@gmail.com> (https://iondrimbafilho.me/)",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.11.1",
