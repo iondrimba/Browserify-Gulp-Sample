@@ -1,6 +1,6 @@
 # Browserify + Gulp Project
 
-[![Travis build status](https://travis-ci.org/iondrimba/browserify-gulp-sample.svg?branch=master)](https://travis-ci.org/iondrimba/browserify-gulp-sample) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva/branch/master?svg=true)](https://ci.appveyor.com/project/iondrimba/browserify-gulp-sample/branch/master)
+[![Travis build status](https://travis-ci.org/iondrimba/browserify-gulp-sample.svg?branch=master)](https://travis-ci.org/iondrimba/browserify-gulp-sample) [![Build status](https://ci.appveyor.com/api/projects/status/5fxsk1vlkea7fp0h?svg=true)](https://ci.appveyor.com/project/iondrimba/browserify-gulp-sample)
 
 ### Goal:
 
